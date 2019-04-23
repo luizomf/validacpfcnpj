@@ -1,4 +1,9 @@
 # Apenas alguns testes, por favor, ignore
+import sys
+import os.path
+sys.path.append(
+    os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir)))
+
 import validacpfcnpj
 
 # 81.684.901/0001-41
