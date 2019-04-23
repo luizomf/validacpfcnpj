@@ -2,9 +2,12 @@
 Classe que realiza os cálculos matemáticos para verificar
 se um CPF ou CNPJ é válido ou não.
 ## Utilização
+Todos os exemplos estão no diretório de exemplos.
 ```
 import validacpfcnpj
-
+```
+Exemplo 1: Enviando CPF ao instanciar a classe
+```
 """
 Exemplo 1: Enviando CPF ao instanciar a classe
 """
@@ -15,7 +18,9 @@ if cpf_cnpj.valida():
     print('CPF %s é válido e contém apenas números.' % cpf_cnpj.cpf_cnpj)
 else:
     print('CPF inválido.')
-
+```
+Exemplo 2: Enviando CNPJ ao instanciar a classe
+```
 """
 Exemplo 2: Enviando CNPJ ao instanciar a classe
 """
@@ -26,7 +31,9 @@ if cpf_cnpj.valida():
     print('CNPJ %s é válido e contém apenas números.' % cpf_cnpj.cpf_cnpj)
 else:
     print('CNPJ inválido.')
-
+```
+Exemplo 3: Reutilizando a classe validando um CNPJ
+```
 """
 Exemplo 3: Reutilizando a classe validando um CNPJ
 """
@@ -37,7 +44,9 @@ if cpf_cnpj.valida():
     print('CNPJ %s é válido e contém apenas números.' % cpf_cnpj.cpf_cnpj)
 else:
     print('CNPJ inválido.')
-
+```
+Exemplo 4: CPF Inválido
+```
 """
 Exemplo 4: CPF Inválido
 """
@@ -47,7 +56,9 @@ try:
     formatado = cpf_cnpj.formatado
 except ValueError:
     print("CPF inválido.")
-
+```
+Exemplo 5: CNPJ Inválido
+```
 """
 Exemplo 5: CNPJ Inválido
 """
