@@ -1,4 +1,4 @@
-# Apenas alguns testes, por favor, ignore.
+# Apenas alguns testes, por favor, ignore
 import validacpfcnpj
 
 # 81.684.901/0001-41
