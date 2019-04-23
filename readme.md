@@ -2,7 +2,7 @@
 Classe que realiza os cálculos matemáticos para verificar
 se um CPF ou CNPJ é válido ou não.
 ## Utilização
-Todos os exemplos estão no diretório de exemplos.
+Todos os exemplos estão em `exemplos/exemplo_1.py`.
 ```
 import validacpfcnpj
 ```
