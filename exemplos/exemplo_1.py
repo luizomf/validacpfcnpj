@@ -6,7 +6,7 @@ sys.path.append(
 import validacpfcnpj
 
 """
-Exemplo 1: Enviando CPF ao instanciar a classe.
+Exemplo 1: Enviando CPF ao instanciar a classe
 """
 cpf_cnpj = validacpfcnpj.ValidaCpfCnpj('61166492621')
 
